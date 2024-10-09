@@ -1,5 +1,5 @@
 (() => {
-    const e = (window.ASSETS || []).concat(["../../../assets/img/default/default-mood.webp"]);
+    const e = (window.ASSETS || []).concat(["../../../main/assets/img/default/default-mood.webp"]);
     const t = window.document.querySelector("#webglBubble");
     if (MainThreeScene.init(t),
         MainThreeScene.initTextures(e),
