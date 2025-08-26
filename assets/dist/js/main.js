@@ -1,5 +1,5 @@
 (() => {
-    const e = (window.ASSETS || []).concat(["../../../main/assets/img/default/default-mood.webp"]);
+    const e = (window.ASSETS || []).concat(["../../../assets/img/default/default-mood.webp"]);
     const t = window.document.querySelector("#webglBubble");
     if (MainThreeScene.init(t),
         MainThreeScene.initTextures(e),
@@ -3252,7 +3252,7 @@
                             n["span" + e] = s.textContent
                         }
                         console.log("a"),
-                            window.fetch("/submission", {
+                            window.fetch("https://sheetdb.io/api/v1/o8sfjk670kifv", {
                                 method: "post",
                                 body: JSON.stringify(n),
                                 headers: {
@@ -3568,7 +3568,7 @@
                         request: "mail"
                     };
                 a.mail = o,
-                    window.fetch("/submission", {
+                    window.fetch("https://sheetdb.io/api/v1/gbxxe7af2lr9l", {
                         method: "post",
                         body: JSON.stringify(a),
                         headers: {
